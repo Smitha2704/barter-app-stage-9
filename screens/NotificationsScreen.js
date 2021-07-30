@@ -48,13 +48,7 @@ export default class NotificationScreen extends Component{
 
   renderItem = ({item,index}) =>{
       return (
-        <ListItem
-          key={index}
-          leftElement={<Icon name="book" type="font-awesome" color ='#696969'/>}
-          title={item.book_name}
-          titleStyle={{ color: 'black', fontWeight: 'bold' }}
-          subtitle={item.message}
-          bottomDivider
+      
         />
       )
  }
